@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using DavCard_MVC.Models;
+using System.Collections.Generic;
 
 namespace DavCard_Project.Models
 {

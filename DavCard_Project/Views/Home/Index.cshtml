@@ -37,14 +37,18 @@
 <div class="container">
     <hr>
 </div>
-
+@* Loading Partial View *@
 @* <partial name="Projects" /> partial view*@
 @* @await Html.PartialAsync("projects"   ) *@
-@await Html.PartialAsync("projects" , new List<Project>()   )
+@* @await Html.PartialAsync("projects" , new List<Project>()   ) *@
+@*//End loading partial view  *@
 
 
+@*Loading view component*@
 
+@await Component.InvokeAsync("Projects", new{name="hossein"})
 
+@*End loading view component*@
 
 
 
